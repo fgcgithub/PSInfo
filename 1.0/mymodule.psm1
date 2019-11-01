@@ -1,4 +1,4 @@
-function get-wurzel{
+function get-wurzel{ #zieht die Quadratwurzel
     param(
         [double]$zahl
     )
