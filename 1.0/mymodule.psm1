@@ -4,3 +4,10 @@ function get-wurzel{ #zieht die Quadratwurzel
     )
     [System.Math]::sqrt($zahl)
 }
+function get-potenz{
+    param(
+        [double]$zahl,
+        [double]$hochzahl
+    )
+    [System.Math]::Pow($zahl,$hochzahl)
+}
